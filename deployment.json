@@ -1,0 +1,23 @@
+{
+  "network": "Testnet",
+  "chains": {
+    "Solana": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "wa6f7GdNNkX4MysZtkv4hCUE6bN3XmkKTudQp44bB3T",
+      "manager": "nmiao1PBLsV4kpW7YQPQEgQXSrehQopdyD7Y951kBmP",
+      "token": "ECKBeNnzg8Em5k1iF1vqBJseaZjkGMDfAAAc96AaLFRn",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "2Fjj1USmrM9wmJ3SvCk1KegKjQEMUmePJ5Rc7UrWAin1"
+        }
+      },
+      "limits": {
+        "outbound": "0.1000000",
+        "inbound": {}
+      }
+    }
+  }
+}
